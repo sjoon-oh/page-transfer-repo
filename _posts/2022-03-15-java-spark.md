@@ -1,13 +1,16 @@
 ---
-title:  "Test post"
+title:  "[조사 노트]Java / Spark"
 date:   2022-03-15 09:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
    show_overlay_excerpt: false
 categories: 
-   - test
+   - Java
+   - Research
 tags:
-   - test
+   - Java
+   - Heap
+   - Spark
 toc: true
 toc_sticky: true
 breadcrumbs: true
@@ -15,7 +18,7 @@ breadcrumbs: true
 
 # Java / Spark
 
-*이 포스트는 연구 과정에서 조사한 노트의 일부입니다.*
+*이 포스트는 OSLab 연구 활동에서 작성한 개인 노트의 일부입니다. 공부 목적으로 작성된 내용이므로 많이 부족할 수 있습니다.*
 
 ## Java Virtual Machines
 
