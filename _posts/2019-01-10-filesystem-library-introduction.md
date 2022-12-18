@@ -1,9 +1,7 @@
 ---
-layout: post
 title:  "C++17 Filesystem Library Introduction"
 date:   2019-01-10 09:00:00
 categories: C/C++
-permalink: /archivers/filesystem_library_introduction
 ---
 
 # 간단한 filesystem(C++17) 맛보기
