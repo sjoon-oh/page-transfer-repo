@@ -1,12 +1,16 @@
 ---
 title:  "C++17 Filesystem Library Introduction"
 date:   2019-01-10 09:00:00
+header:
+   image: /assets/static/header-yonsei.jpg
+   image_description: "Yonsei University Baekyang-ro"
 categories: 
    - C/C++
 tags:
    - C/C++
    - std
 toc: true
+toc_sticky: true
 ---
 
 # 간단한 filesystem(C++17) 맛보기
