@@ -42,7 +42,7 @@ $ sudo pacman -Syu ctags # Arch-based Distributions
 
  \* 여기서는 예제로 리눅스 커널 v5.10.3으로 진행해 보겠습니다. 환경은 Manjaro 21.2.0 Qonos로 진행하였습니다.
 
- ![sc1](../assets/posts/2022-02-12-ctags-cscope/sc1.png)
+ ![sc1](/assets/posts/2022-02-12-ctags-cscope/sc1.png)
 
  ```zsch
 $ wget http://kernel.org/pub/linux/kernel/v5.x/linux-
@@ -59,11 +59,11 @@ $ ctags -R
 
 그러면 아래와 같이 `tags` 파일이 생성된 것을 확인할 수 있습니다.
 
-![sc2](../assets/posts/2022-02-12-ctags-cscope/sc2.png)
+![sc2](/assets/posts/2022-02-12-ctags-cscope/sc2.png)
 
 `tags` 파일 형식은 아래와 같습니다. 순서대로 태그 이름, 정의된 파일, 파일내 정의 형식으로 구분됩니다.
 
-![sc3](../assets/posts/2022-02-12-ctags-cscope/sc3.png)
+![sc3](/assets/posts/2022-02-12-ctags-cscope/sc3.png)
 
 ### ctags의 기본 사용법
 
@@ -75,13 +75,13 @@ $ ctags -R
 
 예를 들어보겠습니다. 현재 디렉토리에 있는 코드 중에서 `main` 함수를 찾고 싶다면, `tj main` 을 명령행 모드에서 사용하고, 
 
-![sc4](../assets/posts/2022-02-12-ctags-cscope/sc4.png)
+![sc4](/assets/posts/2022-02-12-ctags-cscope/sc4.png)
 
 소스에서 원하는 정의를 선택합니다. 여기에서는 3번 `usbdevfs-drop-permissions.c` 파일의 `main` 을 찾아가겠습니다.
 
-![sc5](../assets/posts/2022-02-12-ctags-cscope/sc5.png)
+![sc5](/assets/posts/2022-02-12-ctags-cscope/sc5.png)
 
-![sc6](../assets/posts/2022-02-12-ctags-cscope/sc6.png)
+![sc6](/assets/posts/2022-02-12-ctags-cscope/sc6.png)
 
 그러면 함수의 정의로 이동하는 것을 확인할 수 있습니다.
 
@@ -106,7 +106,7 @@ set tags=/some_dir,./some_other_dir,./some_dir/some_subdir
 
 와 같이 여러개 추가해주어야 합니다. 따라서 저는 보통 열어둔 Vim 세션에 바로 경로를 추가하는 것을 더 선호합니다. 위의 `set tags=` 를 Vim 의 명령행 모드에서 직접 추가하는 것도 가능합니다.
 
-![sc7](../assets/posts/2022-02-12-ctags-cscope/sc7.png)
+![sc7](/assets/posts/2022-02-12-ctags-cscope/sc7.png)
 
 
 ### ctags 기본 명령어
@@ -155,7 +155,7 @@ $ cscope -i cscope.files
 
 이후 `CTRL + D` 로 빠져나갑니다.
 
-![sc8](../assets/posts/2022-02-12-ctags-cscope/sc8.png)
+![sc8](/assets/posts/2022-02-12-ctags-cscope/sc8.png)
 
 그러면 `cscope.out` 파일이 생성된 것을 확인할 수 있습니다.
 
@@ -176,7 +176,7 @@ $ cscope -i cscope.files
 
 와 같이 추가합니다. 최상단 디렉토리의 `README` 파일에서 경로를 추가해보겠습니다.
 
-![sc9](../assets/posts/2022-02-12-ctags-cscope/sc9.png)
+![sc9](/assets/posts/2022-02-12-ctags-cscope/sc9.png)
 
 ctags와 마찬가지로, `~/.vimrc`에 경로를 지정할 수 있습니다. 그러면 파일이 자동적으로 로딩됩니다.
 

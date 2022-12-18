@@ -29,11 +29,11 @@ breadcrumbs: true
 $ ls
 ```
 
-![scs1](../assets/posts/2021-07-24-mac-terminal/screenshot-1.png)
+![scs1](/assets/posts/2021-07-24-mac-terminal/screenshot-1.png)
 
 여기에 -l 옵션을 붙이면 여러가지 정보도 보여줍니다. 권한이나 파일의 종류, 크기 등을 볼 수가 있죠. 
 
-![scs1](../assets/posts/2021-07-24-mac-terminal/screenshot-4.png)
+![scs1](/assets/posts/2021-07-24-mac-terminal/screenshot-4.png)
 
 그런데 아무래도 텍스트만으로 이루어진 콘솔창에서 디렉토리 구조와 파일을 구분하거나 파악하는 것은 조금 힘듭니다. 저도 가끔씩 헷갈리더라구요. 그래서 조금 더 사용성을 늘린 ls(deluxe)라는 놈이 있습니다.
 
@@ -45,7 +45,7 @@ lsd를 설치하면 ls와 같이 사용하면 됩니다. 예를 들어,
 $ lsd
 ```
 
-![scs1](../assets/posts/2021-07-24-mac-terminal/screenshot-2.png)
+![scs1](/assets/posts/2021-07-24-mac-terminal/screenshot-2.png)
 
 앞에 귀염귀염한 확장자 파일 아이콘과 폴더 아이콘이 나타납니다! 또는 이렇게 사용할 수도 있습니다.
 
@@ -53,7 +53,7 @@ $ lsd
 $ lsd --tree
 ```
 
-![scs1](../assets/posts/2021-07-24-mac-terminal/screenshot-3.png)
+![scs1](/assets/posts/2021-07-24-mac-terminal/screenshot-3.png)
 
 파일의 트리 구조를 한눈에 파악하기 쉽게 보여줍니다. 
 
@@ -71,7 +71,7 @@ $ brew install lsd
 
 아무래도 ls 보다는 lsd를 더 사용하게 될 것 같아 ls만 타이핑을 해도 lsd가 실행되도록 하고 싶습니다. 이건 쉘 설정 파일에서 alias로 지정해주면 되겠지요. 그런데 일반적으로 리눅스 상 bash 설정 파일이 ~/.bashrc에 위치해있는 것과는 달리 맥 zsh 설정파일은 조금 다른 위치에 있더라구요. 
 
-![scs1](../assets/posts/2021-07-24-mac-terminal/screenshot-5.png)
+![scs1](/assets/posts/2021-07-24-mac-terminal/screenshot-5.png)
 
 /etc/ 폴더 아래에 각종 쉘 설정파일이 위치해 있습니다. 여기에서 zshrc 파일을 열어 맨 아래 아래와 같이 작성해줍니다.
 

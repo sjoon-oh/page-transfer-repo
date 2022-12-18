@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Home"
+    url: https://sjoon-oh.github.io
   - title: "About"
     url: https://sjoon-oh.github.io/about
   # - title: "About"

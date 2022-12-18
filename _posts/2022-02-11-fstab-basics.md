@@ -47,7 +47,7 @@ $ sudo umount /mnt/spare-drive
 
 fstab에는 몇 가지의 항목으로 구성되어 있고, 공백 또는 `TAB`으로 구분합니다. 간단하게는 아래와 같습니다.
 
-![sc1](../assets/posts/2022-02-11-fstab-basics/sc1.png)
+![sc1](/assets/posts/2022-02-11-fstab-basics/sc1.png)
 
 **File system**: 파일 시스템 장치의 이름을 나타냅니다. `LABEL`을 사용하거나, `/dev/sdb`와 같이 작성하거나, 디스크의 UUID(niversally Unique IDentifier)를 사용하여 지정합니다. UUID는 `lsblk`, `` 명령어로 확인할 수 있습니다.
 

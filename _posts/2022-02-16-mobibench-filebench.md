@@ -68,7 +68,7 @@ $ cd ./Mobibench/shell && make
 
 빌드 후 실행파일은 `Mobibench/shell` 디렉토리에 존재한다. 
 
-![screenshot](../assets/posts/2022-02-16-mobibench-filebench/sc1.png)
+![screenshot](/assets/posts/2022-02-16-mobibench-filebench/sc1.png)
 
 아래와 같이 실행한다.
 
@@ -163,7 +163,7 @@ ${EXECUTABLE_PATH}/mobibench \
 
 우선 옵션을 설정하지 않고 기본으로 실행한 결과는 아래와 같다.
 
-![screenshot](../assets/posts/2022-02-16-mobibench-filebench/sc2.png)
+![screenshot](/assets/posts/2022-02-16-mobibench-filebench/sc2.png)
 
 세 가지 실험에 대해 위 스크립트의 변수 `ACCESS_MODE`와 `SYNC_MODE`를 각각 아래와 같이 변경한다.
 
@@ -241,24 +241,24 @@ $ chmod +x mobibench-run-1.sh # Give executable permission
 $ sudo ./mobibench-run-1.sh
 ```
 
-![screenshot](../assets/posts/2022-02-16-mobibench-filebench/sc3.png)
+![screenshot](/assets/posts/2022-02-16-mobibench-filebench/sc3.png)
 
 `blkparse`의 결과는 동일 디렉토리의 `parse-res-mobibench-1` 이라는 이름으로 저장된다. 이는 테스트 스크립트의 `PARSE_OUTPUT_FILE`으로 prefix가 지정되어 있다. 많은 로그가 기록되므로 간단하게 아래 부분만 확인하면 아래와 같은 결과를 볼 수 있다.
 
-![screenshot](../assets/posts/2022-02-16-mobibench-filebench/sc4.png)
+![screenshot](/assets/posts/2022-02-16-mobibench-filebench/sc4.png)
 
 위와 같은 형식으로 옵션을 달리 주어 스크립트를 만든 후 실행시킨다.
 
-![screenshot](../assets/posts/2022-02-16-mobibench-filebench/sc5.png)
+![screenshot](/assets/posts/2022-02-16-mobibench-filebench/sc5.png)
 
 ### Results - Outputs
 ---
 
 #### EXT4
 
-- `blkparse` summary, Test 1: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-ext4-mobibench-1-sum.log)
-- `blkparse` summary, Test 2: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-ext4-mobibench-2-sum.log)
-- `blkparse` summary, Test 3: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-ext4-mobibench-3-sum.log)
+- `blkparse` summary, Test 1: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-ext4-mobibench-1-sum.log)
+- `blkparse` summary, Test 2: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-ext4-mobibench-2-sum.log)
+- `blkparse` summary, Test 3: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-ext4-mobibench-3-sum.log)
 
 ```sh
 # Test 1.
@@ -323,9 +323,9 @@ Err string : No error
 
 #### XFS
 
-- `blkparse` summary, Test 1: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-xfs-mobibench-1-sum.log)
-- `blkparse` summary, Test 2: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-xfs-mobibench-2-sum.log)
-- `blkparse` summary, Test 3: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-xfs-mobibench-3-sum.log)
+- `blkparse` summary, Test 1: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-xfs-mobibench-1-sum.log)
+- `blkparse` summary, Test 2: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-xfs-mobibench-2-sum.log)
+- `blkparse` summary, Test 3: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-xfs-mobibench-3-sum.log)
 
 ```sh
 # Test 1.
@@ -392,9 +392,9 @@ Err string : No error
 
 #### F2FS
 
-- `blkparse` summary, Test 1: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-f2fs-mobibench-1-sum.log)
-- `blkparse` summary, Test 2: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-f2fs-mobibench-2-sum.log)
-- `blkparse` summary, Test 3: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-f2fs-mobibench-3-sum.log)
+- `blkparse` summary, Test 1: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-f2fs-mobibench-1-sum.log)
+- `blkparse` summary, Test 2: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-f2fs-mobibench-2-sum.log)
+- `blkparse` summary, Test 3: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-f2fs-mobibench-3-sum.log)
 
 ```sh
 # Test 1.
@@ -587,7 +587,7 @@ $ echo 0 > /proc/sys/kernel/randomize_va_space\
 $ sudo filebench -f ./fileserver-1.f
 ```
 
-![screenshot](../assets/posts/2022-02-16-mobibench-filebench/sc6.png)
+![screenshot](/assets/posts/2022-02-16-mobibench-filebench/sc6.png)
 
 지정한 마운트 폴더에 `bigfiletest` 와 하위 디렉터리에 IO가 일어나는 것을 확인할 수 있다. 
 
@@ -597,38 +597,38 @@ $ sudo filebench -f ./fileserver-1.f
 
 #### EXT4
 
-- fileserver, thread 1: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-1.ext4.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-1-ext4.log)
-- fileserver, thread 2: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-2.ext4.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-2-ext4.log)
-- fileserver, thread 4: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-4.ext4.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-4-ext4.log)
-- fileserver, thread 8: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-8.ext4.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-8-ext4.log)
+- fileserver, thread 1: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-1.ext4.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-1-ext4.log)
+- fileserver, thread 2: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-2.ext4.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-2-ext4.log)
+- fileserver, thread 4: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-4.ext4.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-4-ext4.log)
+- fileserver, thread 8: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-8.ext4.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-8-ext4.log)
 
-- varmail, thread 1: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-1.ext4.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-var-1-ext4.log)
-- varmail, thread 2: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-2.ext4.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-var-2-ext4.log)
-- varmail, thread 4: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-4.ext4.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-var-4-ext4.log)
-- varmail, thread 8: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-8.ext4.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-var-8-ext4.log)
+- varmail, thread 1: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-1.ext4.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-var-1-ext4.log)
+- varmail, thread 2: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-2.ext4.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-var-2-ext4.log)
+- varmail, thread 4: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-4.ext4.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-var-4-ext4.log)
+- varmail, thread 8: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-8.ext4.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-var-8-ext4.log)
 
 
 #### XFS
 
-- fileserver, thread 1: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-1.xfs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-1-xfs.log)
-- fileserver, thread 2: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-2.xfs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-2-xfs.log)
-- fileserver, thread 4: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-4.xfs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-4-xfs.log)
-- fileserver, thread 8: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-8.xfs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-8-xfs.log)
+- fileserver, thread 1: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-1.xfs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-1-xfs.log)
+- fileserver, thread 2: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-2.xfs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-2-xfs.log)
+- fileserver, thread 4: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-4.xfs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-4-xfs.log)
+- fileserver, thread 8: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-8.xfs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-8-xfs.log)
 
-- varmail, thread 1: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-1.xfs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-var-1-xfs.log)
-- varmail, thread 2: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-2.xfs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-var-2-xfs.log)
-- varmail, thread 4: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-4.xfs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-var-4-xfs.log)
-- varmail, thread 8: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-8.xfs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-var-8-xfs.log)
+- varmail, thread 1: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-1.xfs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-var-1-xfs.log)
+- varmail, thread 2: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-2.xfs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-var-2-xfs.log)
+- varmail, thread 4: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-4.xfs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-var-4-xfs.log)
+- varmail, thread 8: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-8.xfs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-var-8-xfs.log)
 
 
 #### F2FS
 
-- fileserver, thread 1: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-1.f2fs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-1-f2fs.log)
-- fileserver, thread 2: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-2.f2fs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-2-f2fs.log)
-- fileserver, thread 4: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-4.f2fs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-4-f2fs.log)
-- fileserver, thread 8: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-8.f2fs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-8-f2fs.log)
+- fileserver, thread 1: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-1.f2fs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-1-f2fs.log)
+- fileserver, thread 2: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-2.f2fs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-2-f2fs.log)
+- fileserver, thread 4: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-4.f2fs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-4-f2fs.log)
+- fileserver, thread 8: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-fileserver-8.f2fs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-8-f2fs.log)
 
-- varmail, thread 1: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-1.f2fs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-var-1-f2fs.log)
-- varmail, thread 2: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-2.f2fs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-var-2-f2fs.log)
-- varmail, thread 4: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-4.f2fs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-var-4-f2fs.log)
-- varmail, thread 8: [File](../assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-8.f2fs.log), [log](../assets/posts/2022-02-16-mobibench-filebench/fb-var-8-f2fs.log)
+- varmail, thread 1: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-1.f2fs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-var-1-f2fs.log)
+- varmail, thread 2: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-2.f2fs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-var-2-f2fs.log)
+- varmail, thread 4: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-4.f2fs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-var-4-f2fs.log)
+- varmail, thread 8: [File](/assets/posts/2022-02-16-mobibench-filebench/blkparse-varmail-8.f2fs.log), [log](/assets/posts/2022-02-16-mobibench-filebench/fb-var-8-f2fs.log)

@@ -46,7 +46,7 @@ echo "${some_str}"
 echo "${some_val}"
 ```
 
-![sc](../assets/posts/2021-08-29-shell-script/sc1.png)
+![sc](/assets/posts/2021-08-29-shell-script/sc1.png)
 
 배열은 아래와 같이 선언합니다.
 
@@ -60,7 +60,7 @@ printf "arr: ${arr[*]}\n"
 printf "arr: ${arr2[*]}\n"
 ```
 
-![sc](../assets/posts/2021-08-29-shell-script/sc5.png)
+![sc](/assets/posts/2021-08-29-shell-script/sc5.png)
 
 ## Expansions
 
@@ -82,7 +82,7 @@ Bash Reference Manual에서 설명하는 Shell Expansion의 종류는 아래와 
 
 Brace Expansion은 임의의 문자열을 생성하는 방법입니다. Bracket을 사용하여 아래와 같이 문자열을 생성할 수 있습니다. 여기서 `{}`는 중첩이 가능합니다. 
 
-![sc](../assets/posts/2021-08-29-shell-script/sc2.png)
+![sc](/assets/posts/2021-08-29-shell-script/sc2.png)
 
 
 직접 `,`를 사용하여 반복되는 인자를 지정할 수 있고, 숫자와 글자를 이용하여 아래와 같은 형식으로 지정할 수도 있습니다. 여기에서 `x`와 `y`는 정수 또는 `char` 형이며 `incr` 인수는 옵션으로 지정이 가능합니다.
@@ -91,7 +91,7 @@ Brace Expansion은 임의의 문자열을 생성하는 방법입니다. Bracket�
 {x..y[..incr]}
 ```
 
-![sc](../assets/posts/2021-08-29-shell-script/sc3.png)
+![sc](/assets/posts/2021-08-29-shell-script/sc3.png)
 
 ### Tilde Expansion
 
@@ -204,7 +204,7 @@ $(command)
 
 이를 출력해보면 아래와 같이 나타납니다. (MacOS 기준)
 
-![sc](../assets/posts/2021-08-29-shell-script/sc4.png)
+![sc](/assets/posts/2021-08-29-shell-script/sc4.png)
 
 ## 매개 변수 (Parameters)
 
