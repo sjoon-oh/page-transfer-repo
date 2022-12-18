@@ -2,8 +2,7 @@
 title:  "C++17 Filesystem Library Introduction"
 date:   2019-01-10 09:00:00
 header:
-   image: /assets/static/header-yonsei.jpg
-   image_description: "Yonsei University Baekyang-ro"
+   overlay_image: /assets/static/header-yonsei.jpg
 categories: 
    - C/C++
 tags:
