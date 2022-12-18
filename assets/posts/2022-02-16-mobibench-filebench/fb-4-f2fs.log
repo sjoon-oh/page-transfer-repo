@@ -1,0 +1,55 @@
+Clearing the files in the target device...
+Done
+Running test filebench fileserver-4.f...
+If process is not responding, run the following:
+"echo 0 > /proc/sys/kernel/randomize_va_space" as root.
+Running blktrace in background: 38470
+Filebench Version 1.5-alpha3
+0.000: Allocated 177MB of shared memory
+0.000: File-server Version 3.0 personality successfully loaded
+0.000: Populating and pre-allocating filesets
+0.004: bigfileset populated: 10000 files, avg. dir. width = 20, avg. dir. depth = 3.1, 0 leafdirs, 1240.757MB total size
+0.004: Removing bigfileset tree (if exists)
+0.006: Pre-allocating directories in bigfileset tree
+0.009: Pre-allocating files in bigfileset tree
+0.350: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+0.350: Population and pre-allocation of filesets completed
+0.350: Starting 1 filereader instances
+1.351: Running...
+61.357: Run took 60 seconds...
+61.357: Per-Operation Breakdown
+statfile1            1383448ops    23055ops/s   0.0mb/s    0.001ms/op [0.001ms - 0.331ms]
+deletefile1          1383448ops    23055ops/s   0.0mb/s    0.040ms/op [0.007ms - 52.752ms]
+closefile3           1383449ops    23055ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.290ms]
+readfile1            1383449ops    23055ops/s 3088.0mb/s    0.022ms/op [0.001ms - 0.778ms]
+openfile2            1383450ops    23055ops/s   0.0mb/s    0.002ms/op [0.001ms - 0.404ms]
+closefile2           1383450ops    23055ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.346ms]
+appendfilerand1      1383451ops    23055ops/s 180.0mb/s    0.007ms/op [0.001ms - 51.920ms]
+openfile1            1383451ops    23055ops/s   0.0mb/s    0.003ms/op [0.001ms - 0.447ms]
+closefile1           1383451ops    23055ops/s   0.0mb/s    0.001ms/op [0.001ms - 0.319ms]
+wrtfile1             1383452ops    23055ops/s 2853.5mb/s    0.039ms/op [0.002ms - 48.474ms]
+createfile1          1383452ops    23055ops/s   0.0mb/s    0.052ms/op [0.006ms - 60.099ms]
+61.357: IO Summary: 15217951 ops 253607.071 ops/s 23055/46110 rd/wr 6121.6mb/s 0.015ms/op
+61.357: Shutting down processes
+=== sdb ===
+  CPU  0:                    0 events,        0 KiB data
+  CPU  1:                    0 events,        0 KiB data
+  CPU  2:                    0 events,        0 KiB data
+  CPU  3:                86295 events,     4046 KiB data
+  CPU  4:                    0 events,        0 KiB data
+  CPU  5:                    0 events,        0 KiB data
+  CPU  6:                    0 events,        0 KiB data
+  CPU  7:                    0 events,        0 KiB data
+  CPU  8:                    0 events,        0 KiB data
+  CPU  9:                    0 events,        0 KiB data
+  CPU 10:                    0 events,        0 KiB data
+  CPU 11:                    0 events,        0 KiB data
+  CPU 12:                    0 events,        0 KiB data
+  CPU 13:                    0 events,        0 KiB data
+  CPU 14:                    0 events,        0 KiB data
+  CPU 15:                    1 events,        1 KiB data
+  Total:                 86296 events (dropped 0),     4046 KiB data
+Input file trace-res.blktrace.3 added
+Input file trace-res.blktrace.15 added
+Clearing the files in the target device...
+Done

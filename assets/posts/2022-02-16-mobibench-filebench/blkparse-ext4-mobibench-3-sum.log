@@ -1,0 +1,18 @@
+CPU3 (trace-res):
+ Reads Queued:           0,        0KiB	 Writes Queued:           0,        0KiB
+ Read Dispatches:        0,        0KiB	 Write Dispatches:        0,        0KiB
+ Reads Requeued:         0		 Writes Requeued:         0
+ Reads Completed:     2500K,        8KiB	 Writes Completed:     5000K,    35001MiB
+ Read Merges:            0,        0KiB	 Write Merges:            0,        0KiB
+ Read depth:             0        	 Write depth:             0
+ PC Reads Queued:        0,        0KiB	 PC Writes Queued:        0,        0KiB
+ PC Read Disp.:          0,        0KiB	 PC Write Disp.:          0,        0KiB
+ PC Reads Req.:          0		 PC Writes Req.:          0
+ PC Reads Compl.:       25		 PC Writes Compl.:        0
+ IO unplugs:             0        	 Timer unplugs:           0
+
+Throughput (R/W): 0KiB/s / 11962KiB/s
+Events (trace-res): 7500423 entries
+Skips: 0 forward (0 -   0.0%)
+Trace started at Tue Feb 15 19:16:20 2022
+
