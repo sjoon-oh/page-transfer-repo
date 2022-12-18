@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Project YNSF"
 date:   2020-03-22 09:00:00
 header:

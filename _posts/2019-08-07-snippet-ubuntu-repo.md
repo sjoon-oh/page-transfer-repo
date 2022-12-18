@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "구름IDE 초기 설정"
 date:   2019-08-07 09:00:00
 header:

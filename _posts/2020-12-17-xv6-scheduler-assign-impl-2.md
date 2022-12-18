@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "XV6 Scheduler Assignment Implementation 2"
 date:   2020-12-18 13:00:00
 header:

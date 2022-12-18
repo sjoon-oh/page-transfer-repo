@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "VerilogHDL Tutorial(1)"
 date:   2020-04-18 09:00:00
 header:

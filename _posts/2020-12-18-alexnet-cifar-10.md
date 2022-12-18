@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Intro to AI] CIFAR-10 AlexNet 학습"
 date:   2020-12-18 09:00:00
 header:

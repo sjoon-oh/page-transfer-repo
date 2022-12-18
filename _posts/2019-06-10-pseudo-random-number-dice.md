@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Pseudo-random Number Dice"
 date:   2019-06-10 12:00:00
 header:

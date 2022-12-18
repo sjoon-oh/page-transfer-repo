@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "아치(Arch) 리눅스 설치기 (업데이트)"
 date:   2021-03-29 09:00:00
 header:

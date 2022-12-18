@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Analysis: Mobibench & Filebench"
 date:   2022-02-12 09:00:00
 header:

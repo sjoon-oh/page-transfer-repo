@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "ctags와 cscope"
 date:   2022-02-12 09:00:00
 header:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Intro to AI] MLP 로 Linear Regression 구현하기"
 date:   2020-11-24 13:00:00
 header:

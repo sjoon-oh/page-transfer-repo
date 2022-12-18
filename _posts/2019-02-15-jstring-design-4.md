@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "JString Design[4]"
 date:   2019-02-15 09:00:00
 header:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "KDE Fcitx 한글 입력기 설정"
 date:   2022-01-13 09:00:00
 header:

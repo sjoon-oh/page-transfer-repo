@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "지난 2년간의 회고록"
 date:   2019-06-27 09:00:00
 categories: OICW

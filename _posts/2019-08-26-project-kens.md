@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Project KENS/KNS"
 date:   2019-08-26 09:00:00
 header:

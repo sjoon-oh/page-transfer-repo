@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Flask[01] 환경 구축"
 date:   2019-08-13 09:00:00
 header:

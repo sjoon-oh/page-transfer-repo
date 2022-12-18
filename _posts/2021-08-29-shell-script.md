@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "쉘 스크립트 문법 정리"
 date:   2021-08-30 09:00:00
 header:

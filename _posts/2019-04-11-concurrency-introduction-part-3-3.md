@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Introduction to Concurrency(Part 3)[3]"
 date:   2019-04-11 09:00:00
 header:

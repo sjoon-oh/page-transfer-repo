@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[mac] 터미널 lsd"
 date:   2021-07-24 11:00:00
 header:
