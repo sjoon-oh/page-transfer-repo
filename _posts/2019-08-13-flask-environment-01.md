@@ -10,6 +10,7 @@ tags:
    - Flask
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # Flask 미니 프로젝트

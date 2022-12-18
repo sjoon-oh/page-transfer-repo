@@ -12,6 +12,7 @@ tags:
    - cscope
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # ctags와 cscope

@@ -10,6 +10,7 @@ tags:
    - Arch
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # Fcitx 설정

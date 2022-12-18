@@ -10,6 +10,7 @@ tags:
    - Toy Project
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # Toy Project, NYSCEC3

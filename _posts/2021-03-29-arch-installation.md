@@ -10,6 +10,7 @@ tags:
    - Arch
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # 아치(Arch) 리눅스 설치기

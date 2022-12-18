@@ -11,6 +11,7 @@ tags:
    - fstab
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # 드라이브 자동 마운트 설정하기

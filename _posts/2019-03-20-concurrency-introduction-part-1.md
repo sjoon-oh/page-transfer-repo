@@ -9,6 +9,7 @@ tags:
    - C/C++
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # C++ Multithreading (Part 1)

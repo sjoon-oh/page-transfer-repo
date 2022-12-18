@@ -10,6 +10,7 @@ tags:
    - Toy Project
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # MLP 로 Linear Regression 구현하기 (작성중)

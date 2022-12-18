@@ -11,6 +11,7 @@ tags:
    - Net
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # CIFAR-10 데이터셋 AlexNet 학습 시키기

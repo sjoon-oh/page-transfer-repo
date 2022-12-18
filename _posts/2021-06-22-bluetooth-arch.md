@@ -10,6 +10,7 @@ tags:
    - Bluetooth
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # 아치(Arch) Bluetooth 설정하기

@@ -11,6 +11,7 @@ tags:
    - Bash
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # 쉘 스크립트 문법 정리

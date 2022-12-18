@@ -10,6 +10,7 @@ tags:
    - freshman
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # Essential Tools

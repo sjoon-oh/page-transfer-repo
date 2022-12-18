@@ -10,6 +10,7 @@ tags:
    - Ubuntu
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # Ubuntu Repository 

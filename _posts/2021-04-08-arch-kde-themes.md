@@ -10,6 +10,7 @@ tags:
    - Arch
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # 아치(Arch) KDE 데스크탑 환경 설정기 (업데이트)

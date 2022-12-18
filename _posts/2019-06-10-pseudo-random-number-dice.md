@@ -9,6 +9,7 @@ tags:
    - Electronic Engineering
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # Pseudo-random Number Dice(유사난수 주사위)

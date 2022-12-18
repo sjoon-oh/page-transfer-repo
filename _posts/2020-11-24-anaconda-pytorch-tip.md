@@ -9,6 +9,7 @@ tags:
    - Python
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # PyTorch - Anaconda/Jupyter 에서 사용하기

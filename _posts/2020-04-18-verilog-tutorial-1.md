@@ -9,6 +9,7 @@ tags:
    - Electronic Engineering
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # Verilog

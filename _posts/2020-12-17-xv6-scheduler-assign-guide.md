@@ -11,6 +11,7 @@ tags:
    - xv6
 toc: true
 toc_sticky: true
+breadcrumbs: true
 ---
 
 # [Operating System] XV6 Scheduler Assignment Guideline
