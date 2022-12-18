@@ -3,6 +3,7 @@ title:  "Flask[01] 환경 구축"
 date:   2019-08-13 09:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - Python
 tags:

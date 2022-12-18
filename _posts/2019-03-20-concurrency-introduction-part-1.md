@@ -3,6 +3,7 @@ title:  "Introduction to Concurrency(Part 1)"
 date:   2019-03-20 09:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - C/C++
 tags:

@@ -3,6 +3,7 @@ title:  "[Intro to AI] MLP 로 Linear Regression 구현하기"
 date:   2020-11-24 13:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - Python
 tags:

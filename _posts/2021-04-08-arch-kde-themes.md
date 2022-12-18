@@ -3,6 +3,7 @@ title:  "아치(Arch) 리눅스 KDE 데스크탑 환경 설정하기"
 date:   2021-04-08 09:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - Linux
 tags:

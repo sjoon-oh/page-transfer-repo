@@ -3,6 +3,7 @@ title:  "Pseudo-random Number Dice"
 date:   2019-06-10 12:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - Electronic Engineering
 tags:

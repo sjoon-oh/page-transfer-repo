@@ -3,6 +3,7 @@ title:  "[Toy Project] NLUS3"
 date:   2021-02-27 09:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - Python
 tags:

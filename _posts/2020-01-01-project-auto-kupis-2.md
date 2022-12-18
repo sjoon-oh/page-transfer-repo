@@ -3,6 +3,7 @@ title:  "Project AutoKupis2"
 date:   2020-01-01 09:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - Python
 tags:

@@ -3,6 +3,7 @@ title:  "구름IDE 초기 설정"
 date:   2019-08-07 09:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - Snippet
 tags:

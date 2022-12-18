@@ -4,6 +4,7 @@ date:   2019-06-27 09:00:00
 categories: OICW
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - OICW
 tags:

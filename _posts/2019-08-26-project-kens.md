@@ -3,6 +3,7 @@ title:  "Project KENS/KNS"
 date:   2019-08-26 09:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - Python
 tags:

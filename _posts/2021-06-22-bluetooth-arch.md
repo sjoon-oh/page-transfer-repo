@@ -3,6 +3,7 @@ title:  "아치 리눅스 블루투스 설정하기"
 date:   2021-06-22 09:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - Linux
 tags:

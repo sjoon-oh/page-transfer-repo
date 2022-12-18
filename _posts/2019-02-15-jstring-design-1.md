@@ -3,6 +3,7 @@ title:  "JString Design[1]"
 date:   2019-02-15 09:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - C/C++
 tags:

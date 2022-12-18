@@ -3,6 +3,7 @@ title:  "fstab 자동 마운트 설정"
 date:   2022-02-11 09:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - Linux
 tags:

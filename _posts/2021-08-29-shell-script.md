@@ -3,6 +3,7 @@ title:  "쉘 스크립트 문법 정리"
 date:   2021-08-30 09:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - Shell
 tags:

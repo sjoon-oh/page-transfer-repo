@@ -3,6 +3,7 @@ title:  "VerilogHDL Tutorial(1)"
 date:   2020-04-18 09:00:00
 header:
    overlay_image: /assets/static/header-yonsei.jpg
+   show_overlay_excerpt: false
 categories: 
    - Electronic Engineering
 tags:
