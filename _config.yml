@@ -105,10 +105,10 @@ analytics:
 # Site Author
 author:
   name             : "SUKJOON OH"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/static/profile-avatar.jpg
   bio              : "Observer, learner, dreamer."
   location         : "Seoul, South Korea"
-  email            :
+  email            : sjoon.pm@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/sjoon-oh"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
