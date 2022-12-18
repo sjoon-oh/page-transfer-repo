@@ -5,7 +5,6 @@ header:
    overlay_image: /assets/static/header-yonsei.jpg
    show_overlay_excerpt: false
 categories: 
-   - Java
    - Research
 tags:
    - Java
@@ -53,7 +52,7 @@ JVM의 구조는 아래의 그림과 같다. 아래는 JVM 명세를 만족한�
 
 ![res-1.jpg](/assets/posts/2022-03-15-java-spark/res-1.jpg)
 
-* *출처: https://post-phinf.pstatic.net/MjAxOTA4MTlfMTMw/MDAxNTY2MTg2MzY0OTc0.9v3tGWLvd5MLqjwciwAPfGRr71nUocVBTNBNuSz6B3Eg.c_ClLIred9YTjj07qnzULzjF5xVsiMXofyP1an4fO50g.JPEG/1.jpg?type=w1200*
+*출처: [링크](https://post-phinf.pstatic.net/MjAxOTA4MTlfMTMw/MDAxNTY2MTg2MzY0OTc0.9v3tGWLvd5MLqjwciwAPfGRr71nUocVBTNBNuSz6B3Eg.c_ClLIred9YTjj07qnzULzjF5xVsiMXofyP1an4fO50g.JPEG/1.jpg?type=w1200)
 
 `Java` Heap은 크게 두 가지 (또는 세 가지)의 종류로 나눌 수 있다.
 
