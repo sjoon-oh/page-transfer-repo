@@ -21,7 +21,7 @@ breadcrumbs: true
 
 ## Consistency Models
 
----
+
 
 Consistency Model 은 각기 다른 시멘틱(Semantics)를 보장한다. Consistency Model 은 참여자(Participant) 사이의 일종의 계약(contract)이라 생각할 수 있다: 각 복제본(Replica)은 조건을 만족하기 위해 어떠한 행위를 해야 하며, 클라이언트 혹은 사용자는 Read/Write에 대해 어떠한 결과를 기대할 수 있는지를 약속한다.
 
@@ -36,7 +36,7 @@ Consistency Model 을 알아보기 전에, 순서(Order)의 정의를 짚고 넘
 
 ## Types of Consistency
 
----
+
 
 분산 시스템, 혹은 Shared Memory 에서의 Consistency 는 보장 정도에 따라 두 가지로 나눌 수 있다.
 
@@ -169,7 +169,7 @@ Linearizability 는 Serializablity 의 좁은 개념이다. 둘의 주요 차이
 
 ## Clocks
 
----
+
 
 분산 시스템에서 완벽히 동기화되는 전역적 시간 (Global Absolute Clock)은 존재할 수 없다. 따라서 논리적 시간 (Logical Clock)을 사용하는데, 두 개의 차이점은 다음과 같다.
 
@@ -206,7 +206,7 @@ N개의 노드가 존재한다고 할 때, 변수 $t$ 대신 $<N_1, N_2, ..., N_
 
 ## Reference
 
----
+
 
 - [Shared Memory Consistency Model](https://lolki.tistory.com/16)
 - [https://www.cs.colostate.edu/~cs551/CourseNotes/Consistency/TypesConsistency.html](https://www.cs.colostate.edu/~cs551/CourseNotes/Consistency/TypesConsistency.html)
